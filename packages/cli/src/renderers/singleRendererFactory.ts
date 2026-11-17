@@ -1,3 +1,5 @@
+import path from "node:path";
+
 import { nullThrows } from "@flint.fyi/utils";
 
 import type { RendererFactory } from "./types.ts";
@@ -29,7 +31,10 @@ export const singleRendererFactory: RendererFactory = {
 							);
 							return {
 								file: {
-									filePath,
+									filePath: path.relative(
+										host.getRepositoryRoot() ?? host.getCurrentDirectory(),
+										filePath,
+									),
 									text: sourceFileText,
 								},
 								reports: fileResults.reports,
