@@ -6,9 +6,12 @@ import { fileURLToPath } from "node:url";
 import ecTwoSlash from "expressive-code-twoslash";
 import ts from "typescript";
 
+import { pluginAnsiLinks } from "@flint.fyi/expressive-code-ansi-links";
+
 /** @type {import('@astrojs/starlight/expressive-code').StarlightExpressiveCodeOptions} */
 export default {
 	plugins: [
+		pluginAnsiLinks(),
 		ecTwoSlash({
 			twoslashOptions: {
 				tsLibDirectory: dirname(ts.getDefaultLibFilePath({})),
