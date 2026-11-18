@@ -1,5 +1,13 @@
 # @flint/cli
 
+## 0.23.6
+
+### Patch Changes
+
+- [#3806](https://github.com/flint-fyi/flint/pull/3806) [`5b8f63a`](https://github.com/flint-fyi/flint/commit/5b8f63ae865be2cd1bf3276bab6f96d709403cbc) - Re-lint and redraw results in `--interactive --watch` mode as soon as files change.
+
+- [#3926](https://github.com/flint-fyi/flint/pull/3926) [`b5ee5f8`](https://github.com/flint-fyi/flint/commit/b5ee5f8afa3d6b2cc0e2759e58a1f4d28fecea6d) - Adds `createRelayFileSystemWatcher` and uses it in `--watch` mode so TypeScript's file watchers share Flint's one recursive watcher instead of each opening a native one.
+
 ## 0.23.5
 
 ### Patch Changes
