@@ -4188,6 +4188,32 @@
 	},
 	{
 		"flint": {
+			"name": "noIncompleteMetaSchema",
+			"plugin": "flint",
+			"status": "skipped"
+		},
+		"eslint": [
+			{
+				"name": "eslint-plugin/no-incomplete-meta-schema",
+				"url": "https://github.com/eslint-community/eslint-plugin-eslint-plugin/tree/HEAD/docs/rules/no-incomplete-meta-schema.md"
+			}
+		]
+	},
+	{
+		"flint": {
+			"name": "noIncorrectMetaSchema",
+			"plugin": "flint",
+			"status": "skipped"
+		},
+		"eslint": [
+			{
+				"name": "eslint-plugin/no-incorrect-meta-schema",
+				"url": "https://github.com/eslint-community/eslint-plugin-eslint-plugin/tree/HEAD/docs/rules/no-incorrect-meta-schema.md"
+			}
+		]
+	},
+	{
+		"flint": {
 			"name": "optionDefaults",
 			"plugin": "flint",
 			"status": "skipped"
@@ -4217,6 +4243,32 @@
 			{
 				"name": "eslint-plugin/meta-property-ordering",
 				"url": "https://github.com/eslint-community/eslint-plugin-eslint-plugin/blob/main/docs/rules/meta-property-ordering.md"
+			}
+		]
+	},
+	{
+		"flint": {
+			"name": "requireMetaLanguages",
+			"plugin": "flint",
+			"status": "skipped"
+		},
+		"eslint": [
+			{
+				"name": "eslint-plugin/require-meta-languages",
+				"url": "https://github.com/eslint-community/eslint-plugin-eslint-plugin/tree/HEAD/docs/rules/require-meta-languages.md"
+			}
+		]
+	},
+	{
+		"flint": {
+			"name": "requireTestErrorPositions",
+			"plugin": "flint",
+			"status": "skipped"
+		},
+		"eslint": [
+			{
+				"name": "eslint-plugin/require-test-error-positions",
+				"url": "https://github.com/eslint-community/eslint-plugin-eslint-plugin/tree/HEAD/docs/rules/require-test-error-positions.md"
 			}
 		]
 	},
